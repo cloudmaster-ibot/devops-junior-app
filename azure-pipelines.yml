@@ -29,4 +29,4 @@ stages:
       inputs:
         azureSubscription: 'Azure-Service-Connection'
         appName: 'devops-junior-app'
-        containers: 'conainerjuniordevops.azurecr.io/$(imageName):latest'
+        containers: 'containerjuniordevops.azurecr.io/$(imageName):latest'
